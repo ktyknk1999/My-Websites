@@ -1,0 +1,804 @@
+html
+{
+    scroll-behavior: smooth;
+    
+}
+
+body
+{
+    font-family:'Montserrat', sans-serif ;
+}
+
+a,
+a:hover,
+a:focus
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*main*/
+
+.main
+{
+    background-color: transparent;
+    height: 100vh;
+    margin-top: -100vh;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.maintext
+{
+    color: white;
+    font-size: 33px;
+    margin: auto;
+    margin-top: 50vh;
+    
+}
+
+.row
+{
+    width: 100%;
+}
+
+#particles-js
+{
+    
+    height: 100vh;
+    background: black;
+}
+
+.subtext
+{
+    font-size: 13px;
+    color: white;
+    margin: auto;
+    
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.mainhr
+{
+    border: white;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    width: 00px;
+    height: 1px;
+    background-color: white;
+}
+
+/* navbar */
+
+nav
+{
+    font-size: 15px;
+    background-color: transparent;
+    z-index: 3;
+    text-align: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    transition: 0.5s ease;
+}
+
+nav .collapse .nav-item .nav-link:hover
+{
+    /* font-weight: bolder; */
+    transform: scale(1.4,1.4);
+    transition: 0.3s ease;
+    color: white!important;
+    
+    
+}
+
+nav .collapse .nav-item .nav-link:focus
+{
+    color:white!important;
+}
+
+.nav-item
+{
+    padding: 10px;
+}
+
+.nav-button
+{
+    border-radius: 6px;
+    outline: none;
+    background-color: white;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 160px;
+    transition: 0.5s ease;
+
+}
+
+.nav-button:hover
+{
+    background-color: white;
+    color: white;
+    transition: 0.5s ease;
+}
+.nav-button:focus
+{
+    background-color: white;
+    color: white;
+    transition: 0.5s ease;
+    outline: none;
+}
+
+nav
+{
+    transition: 0.7s;
+}
+
+nav.scrolled
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+
+	transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+.custom-toggler .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+            }
+
+.custom-toggler.navbar-toggler {
+            border-color: transparent;
+        }
+        .custom-toggler.navbar-toggler:focus
+        {
+            border-color: transparent;
+            outline: none;
+        }
+        .custom-toggler.navbar-toggler:focus nav
+        {
+            background-color: transparent !important;
+        }
+        .navbar-yellow {
+
+            background-color: white !important;
+        }
+
+.dhr
+{
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    
+}
+
+
+/* about */
+
+
+
+
+
+.about
+{
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.heading
+{
+    font-size: 40px;
+    color: black;
+    
+    font-weight: 700;
+}
+
+.about_img
+{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about_img2
+{
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.abt_row
+{
+    margin-top: 50px;
+}
+
+.abt_txt
+{
+    text-align: justify;
+    font-size: 15px;
+    color: #666666;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+
+
+/* education */
+
+
+.edu
+{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.edu_heading
+{
+    font-size: 40px;
+    color: white;
+    
+    font-weight: 700;
+}
+
+
+.edu_img
+{
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+
+.head1
+{
+    font-size: 20px;
+    color: #e6e6e6;
+}
+
+.head2
+{
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+
+/* Experiences */
+ul.experiences {
+    padding-left: 15px;
+    margin-top: -1px;
+}
+ul.experiences li {
+    padding-left: 33px;
+    margin-bottom: 2.5em;
+    list-style: none;
+    
+}
+
+
+
+
+/* BORDERS AND BULLETS */
+
+p {
+    /*CSS reset*/
+    margin-bottom: 0;
+}
+
+ul.experiences li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+}
+
+ul.experiences li:after {
+    /* bullets */
+    content: url('images/grey_bullet.png');
+    position: absolute;
+    left: -26px; /*adjust manually*/
+    top: 0px;
+}
+
+ul.experiences li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -19px; /* adjust manually */
+    border-left: 1px solid white;
+    height: 100%;
+    width: 1px;
+}
+
+ul.experiences li:first-child:before {
+   /* first li's line */
+   top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.experiences li:last-child:before {
+    /* last li's line */
+   height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+
+/* intership */
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  text-decoration: none;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    margin-bottom:20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.clogo
+{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.chead
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.cdesc
+{
+    font-size: 15px;
+    font-weight: normal;
+    color: #737373;
+}
+
+.certi_btn
+{
+    margin-top: 15px;
+    border: 2px solid #333333;
+    padding: 5px;
+    width: 150px;
+    font-weight: 500;
+    color: #333333;
+    outline: none;
+    background: linear-gradient(to right, #333333 50%, #f2f2f2 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    transition: all .5s ease-out;
+}
+
+
+.certi_btn:hover
+{
+ 
+  background-position: left bottom;
+  color: #f2f2f2;
+
+
+}
+
+.certi_btn:focus
+{
+  outline: none;
+}
+
+
+/* projects */
+
+.new {
+      background: transparent;
+      overflow: hidden;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+    }
+
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 400px;
+      background-color: #b3b3b3;
+      border-radius: 9px;
+        padding-top: 30px ;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .swiper-wrapper
+    {
+        height: auto;
+        
+    
+
+    }
+
+.pro_btn
+{
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 3px;
+    width: 100px;
+    font-weight: 500;
+    color: black;
+    outline: none;
+    background: linear-gradient(to right, black 50%, #ffb142 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    transition: all .5s ease-out;
+    margin-bottom: 20px
+}
+
+
+.pro_btn:hover
+{
+ 
+  background-position: left bottom;
+  color: #ffb142;
+
+
+}
+
+.pro_btn:focus
+{
+    outline:none;
+}
+
+
+.prohead
+{
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.prolang
+{
+font-size: 12px;
+}
+
+.prodesc
+{
+    font-size: 16px;
+    color: white;
+}
+
+.slide_one
+{
+    background-color: #ffb142;
+}
+    
+.slide_two
+{
+    background-color: #e74c3c;
+}
+
+.slide_three
+{
+    background-color: #8e44ad;
+}
+.slide_four
+{
+    background-color: #27ae60;
+}
+
+.slide_one .prohead
+{
+    color: black;
+}
+
+
+.pro_img
+{
+    width: 300px;
+    margin-top:50px;
+    margin-bottom : 20px;
+}
+
+.swip_row
+{
+    margin-top:0px;
+}
+
+
+
+/* languages */
+
+.lang_div
+{
+    height: auto;
+    width: 200px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.html
+{
+    border-color: #fa8231;
+    background-color: #fa8231;
+    color: white;
+    
+}
+
+
+
+
+.java
+{
+    border-color: #0a4c5c;
+    background-color: #0a4c5c;
+    color: white;
+}
+.c_plus
+{
+    border-color: #1d3595;
+    background-color: #1d3595;
+    color: white;
+}
+.c
+{
+    border-color: #1d3595;
+    background-color: #1d3595;
+    color: white;
+}
+.css
+{
+    border-color: #2280dd;
+    background-color: #2280dd;
+    color: white;
+}
+.javascript
+{
+    border-color: #fed330;
+    background-color: #fed330;
+    color: white;
+}
+.bootstrap
+{
+    border-color: #7337c8;
+    background-color: #7337c8;
+    color: white;
+}
+.mysql
+{
+    border-color: #778ca3;
+    background-color: #778ca3;
+    color: white;
+}
+
+.node
+{
+    border-color: #2ecc71;
+    background-color: #2ecc71;
+    color: white;
+}
+
+.lang_img
+{   
+    margin-top: -40px;
+    width: 200px;
+}
+
+.lang_txt
+{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.fas 
+{
+    font-size: 15px;
+}
+
+.lang_swip
+{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    
+}
+
+
+.lang_cont
+{
+    padding-top: 0px;
+}
+
+.lang_logo
+{
+    height: 300px;
+}
+
+
+
+/* contact */
+
+/* .contact
+{
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(to bottom, black, #4b4b4b);
+}
+
+
+.icon 
+{
+    height: 70px;
+    margin-bottom: 30px;
+    transition: 0.4s ease-in-out;
+}
+
+.icon:hover
+{
+    transform: scale(1.5,1.5);
+}
+
+.inner_contact
+{
+    word-spacing: 90px;
+    margin-top: 20px;
+}
+
+
+.c_heading
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+} */
+
+
+.contact
+{
+    min-height: 100px;
+    background-color: #f2f2f2;
+    padding :60px 50px;
+    padding-bottom: 30px;
+    color: black
+}
+
+.contact-heading
+{
+    /* color: black; */
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+.contact-hr
+{
+    border-color: black;
+    margin-bottom: 40px;
+}
+.heading-contact-1
+{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.contact-inside
+{
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    transition: 0.4s ;
+    cursor: pointer;
+}
+.contact-inside:hover
+{
+    font-weight: 500;
+}
+
+.social_icons
+{
+    font-size: 25px;
+}
+
+.end-contact
+{
+    font-size: 11px;
+    color: #737373;
+    text-align: center;
+}
+.end-contact font
+{
+    font-weight: 600;
+    color: black
+}
